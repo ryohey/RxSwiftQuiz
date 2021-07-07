@@ -12,18 +12,10 @@
 		5C8B9E3A269553ED00A0C48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8B9E39269553ED00A0C48B /* Assets.xcassets */; };
 		5C8B9E3D269553ED00A0C48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8B9E3B269553ED00A0C48B /* Main.storyboard */; };
 		5C8B9E49269553ED00A0C48B /* RxSwiftQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E48269553ED00A0C48B /* RxSwiftQuizTests.swift */; };
-		5C8B9E54269553ED00A0C48B /* RxSwiftQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E53269553ED00A0C48B /* RxSwiftQuizUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		5C8B9E45269553ED00A0C48B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C8B9E2A269553EC00A0C48B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C8B9E31269553EC00A0C48B;
-			remoteInfo = RxSwiftQuiz;
-		};
-		5C8B9E50269553ED00A0C48B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C8B9E2A269553EC00A0C48B /* Project object */;
 			proxyType = 1;
@@ -43,9 +35,6 @@
 		5C8B9E44269553ED00A0C48B /* RxSwiftQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8B9E48269553ED00A0C48B /* RxSwiftQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftQuizTests.swift; sourceTree = "<group>"; };
 		5C8B9E4A269553ED00A0C48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C8B9E4F269553ED00A0C48B /* RxSwiftQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C8B9E53269553ED00A0C48B /* RxSwiftQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftQuizUITests.swift; sourceTree = "<group>"; };
-		5C8B9E55269553ED00A0C48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C8B9E4C269553ED00A0C48B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +60,6 @@
 			children = (
 				5C8B9E34269553EC00A0C48B /* RxSwiftQuiz */,
 				5C8B9E47269553ED00A0C48B /* RxSwiftQuizTests */,
-				5C8B9E52269553ED00A0C48B /* RxSwiftQuizUITests */,
 				5C8B9E33269553EC00A0C48B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +69,6 @@
 			children = (
 				5C8B9E32269553EC00A0C48B /* RxSwiftQuiz.app */,
 				5C8B9E44269553ED00A0C48B /* RxSwiftQuizTests.xctest */,
-				5C8B9E4F269553ED00A0C48B /* RxSwiftQuizUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,15 +93,6 @@
 				5C8B9E4A269553ED00A0C48B /* Info.plist */,
 			);
 			path = RxSwiftQuizTests;
-			sourceTree = "<group>";
-		};
-		5C8B9E52269553ED00A0C48B /* RxSwiftQuizUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5C8B9E53269553ED00A0C48B /* RxSwiftQuizUITests.swift */,
-				5C8B9E55269553ED00A0C48B /* Info.plist */,
-			);
-			path = RxSwiftQuizUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,24 +133,6 @@
 			productReference = 5C8B9E44269553ED00A0C48B /* RxSwiftQuizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C8B9E4E269553ED00A0C48B /* RxSwiftQuizUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C8B9E5E269553ED00A0C48B /* Build configuration list for PBXNativeTarget "RxSwiftQuizUITests" */;
-			buildPhases = (
-				5C8B9E4B269553ED00A0C48B /* Sources */,
-				5C8B9E4C269553ED00A0C48B /* Frameworks */,
-				5C8B9E4D269553ED00A0C48B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5C8B9E51269553ED00A0C48B /* PBXTargetDependency */,
-			);
-			name = RxSwiftQuizUITests;
-			productName = RxSwiftQuizUITests;
-			productReference = 5C8B9E4F269553ED00A0C48B /* RxSwiftQuizUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,10 +146,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					5C8B9E43269553ED00A0C48B = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 5C8B9E31269553EC00A0C48B;
-					};
-					5C8B9E4E269553ED00A0C48B = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 5C8B9E31269553EC00A0C48B;
 					};
@@ -217,7 +166,6 @@
 			targets = (
 				5C8B9E31269553EC00A0C48B /* RxSwiftQuiz */,
 				5C8B9E43269553ED00A0C48B /* RxSwiftQuizTests */,
-				5C8B9E4E269553ED00A0C48B /* RxSwiftQuizUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5C8B9E42269553ED00A0C48B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C8B9E4D269553ED00A0C48B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,14 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C8B9E4B269553ED00A0C48B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C8B9E54269553ED00A0C48B /* RxSwiftQuizUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -281,11 +214,6 @@
 			isa = PBXTargetDependency;
 			target = 5C8B9E31269553EC00A0C48B /* RxSwiftQuiz */;
 			targetProxy = 5C8B9E45269553ED00A0C48B /* PBXContainerItemProxy */;
-		};
-		5C8B9E51269553ED00A0C48B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C8B9E31269553EC00A0C48B /* RxSwiftQuiz */;
-			targetProxy = 5C8B9E50269553ED00A0C48B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -502,46 +430,6 @@
 			};
 			name = Release;
 		};
-		5C8B9E5F269553ED00A0C48B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = X93JXG35PP;
-				INFOPLIST_FILE = RxSwiftQuizUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.mironal.RxSwiftQuizUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = RxSwiftQuiz;
-			};
-			name = Debug;
-		};
-		5C8B9E60269553ED00A0C48B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = X93JXG35PP;
-				INFOPLIST_FILE = RxSwiftQuizUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.mironal.RxSwiftQuizUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = RxSwiftQuiz;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,15 +456,6 @@
 			buildConfigurations = (
 				5C8B9E5C269553ED00A0C48B /* Debug */,
 				5C8B9E5D269553ED00A0C48B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5C8B9E5E269553ED00A0C48B /* Build configuration list for PBXNativeTarget "RxSwiftQuizUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C8B9E5F269553ED00A0C48B /* Debug */,
-				5C8B9E60269553ED00A0C48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
