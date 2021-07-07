@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  RxSwiftQuiz
 //
-//  Created by 山口勝也 on 2021/07/07.
 //
 
 import Cocoa

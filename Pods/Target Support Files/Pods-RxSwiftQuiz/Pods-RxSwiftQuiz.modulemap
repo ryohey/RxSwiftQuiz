@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftQuiz {
+  umbrella header "Pods-RxSwiftQuiz-umbrella.h"
+
+  export *
+  module * { export * }
+}

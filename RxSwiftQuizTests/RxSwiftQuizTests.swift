@@ -2,11 +2,11 @@
 //  RxSwiftQuizTests.swift
 //  RxSwiftQuizTests
 //
-//  Created by 山口勝也 on 2021/07/07.
 //
 
 import XCTest
 @testable import RxSwiftQuiz
+import RxSwift
 
 class RxSwiftQuizTests: XCTestCase {
 
