@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4F182CEBFEA24F1ADFE9D588 /* Pods_RxSwiftQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A707A94F2C729E19C171C996 /* Pods_RxSwiftQuizTests.framework */; };
+		5C1C3F7E2695663100878F17 /* Basic_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C3F7D2695663100878F17 /* Basic_2.swift */; };
 		5C8B9E36269553EC00A0C48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E35269553EC00A0C48B /* AppDelegate.swift */; };
 		5C8B9E38269553EC00A0C48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E37269553EC00A0C48B /* ViewController.swift */; };
 		5C8B9E3A269553ED00A0C48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8B9E39269553ED00A0C48B /* Assets.xcassets */; };
 		5C8B9E3D269553ED00A0C48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8B9E3B269553ED00A0C48B /* Main.storyboard */; };
-		5C8B9E49269553ED00A0C48B /* RxSwiftQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E48269553ED00A0C48B /* RxSwiftQuizTests.swift */; };
+		5C8B9E49269553ED00A0C48B /* Basic_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E48269553ED00A0C48B /* Basic_1.swift */; };
 		FD691F4C3E920CE777BDC77D /* Pods_RxSwiftQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA88EA8C4917E874D0D5A47 /* Pods_RxSwiftQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2B32E06E03FC89C7DF194D80 /* Pods-RxSwiftQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftQuiz.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftQuiz/Pods-RxSwiftQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		5C1C3F7D2695663100878F17 /* Basic_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_2.swift; sourceTree = "<group>"; };
 		5C8B9E32269553EC00A0C48B /* RxSwiftQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8B9E35269553EC00A0C48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C8B9E37269553EC00A0C48B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +38,7 @@
 		5C8B9E3E269553ED00A0C48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C8B9E3F269553ED00A0C48B /* RxSwiftQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RxSwiftQuiz.entitlements; sourceTree = "<group>"; };
 		5C8B9E44269553ED00A0C48B /* RxSwiftQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C8B9E48269553ED00A0C48B /* RxSwiftQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftQuizTests.swift; sourceTree = "<group>"; };
+		5C8B9E48269553ED00A0C48B /* Basic_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_1.swift; sourceTree = "<group>"; };
 		5C8B9E4A269553ED00A0C48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C8B9E622695549000A0C48B /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
 		5C8B9E632695549000A0C48B /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
@@ -106,7 +108,8 @@
 		5C8B9E47269553ED00A0C48B /* RxSwiftQuizTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C8B9E48269553ED00A0C48B /* RxSwiftQuizTests.swift */,
+				5C8B9E48269553ED00A0C48B /* Basic_1.swift */,
+				5C1C3F7D2695663100878F17 /* Basic_2.swift */,
 				5C8B9E4A269553ED00A0C48B /* Info.plist */,
 			);
 			path = RxSwiftQuizTests;
@@ -330,7 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C8B9E49269553ED00A0C48B /* RxSwiftQuizTests.swift in Sources */,
+				5C8B9E49269553ED00A0C48B /* Basic_1.swift in Sources */,
+				5C1C3F7E2695663100878F17 /* Basic_2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
