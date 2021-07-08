@@ -36,6 +36,7 @@ class Basic_1: XCTestCase {
     func test1() throws {
         // Write the code to convert `oneToFiveEvent` so that the test passes
         let answer = oneToFiveEvent // 1, 2, 3, 4, 5
+            .filter { !$0.isMultiple(of: 2) }
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -45,6 +46,7 @@ class Basic_1: XCTestCase {
     func test2() throws {
         // Write the code to convert `oneToFiveEvent` so that the test passes
         let answer = oneToFiveEvent
+            .reduce(0, accumulator: +)
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -54,6 +56,7 @@ class Basic_1: XCTestCase {
     func test3() throws {
         // Write the code to convert `oneToFiveEvent` so that the test passes
         let answer = oneToFiveEvent
+            .scan(0, accumulator: +)
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -63,6 +66,7 @@ class Basic_1: XCTestCase {
     func test4() throws {
         // Write the code to convert `oneToFiveEvent` so that the test passes
         let answer = oneToFiveEvent
+            .startWith(0)
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -72,6 +76,7 @@ class Basic_1: XCTestCase {
     func test5() throws {
         // Write the code to convert `oneToFiveEvent` so that the test passes
         let answer = oneToFiveEvent
+            .map { $0 + 1 }
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -81,6 +86,7 @@ class Basic_1: XCTestCase {
     func test6() throws {
         // Write the code to convert `sameValueEvent` so that the test passes
         let answer = sameValueEvent // 1, 1, 1, 2, 2
+            .map { $0 * 2 }
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -90,6 +96,8 @@ class Basic_1: XCTestCase {
     func test7() throws {
         // Write the code to convert `sameValueEvent` so that the test passes
         let answer = sameValueEvent
+            .distinctUntilChanged()
+            .map { _ in 1 }
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -99,6 +107,7 @@ class Basic_1: XCTestCase {
     func test8() throws {
         // Write the code to convert `sameValueEvent` so that the test passes
         let answer = sameValueEvent
+            .distinctUntilChanged()
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -108,6 +117,7 @@ class Basic_1: XCTestCase {
     func test9() throws {
         // Write the code to convert `sameValueEvent` so that the test passes
         let answer = sameValueEvent
+            .element(at: 3)
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
@@ -117,6 +127,7 @@ class Basic_1: XCTestCase {
     func test10() throws {
         // Write the code to convert `sameValueEvent` so that the test passes
         let answer = sameValueEvent
+            .filter { _ in false }
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
