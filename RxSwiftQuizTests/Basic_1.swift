@@ -14,6 +14,14 @@ class Basic_1: XCTestCase {
     let oneToFiveEvent = Observable.of(1, 2, 3, 4, 5)
     let sameValueEvent = Observable.of(1, 1, 1, 2, 2)
 
+    /*
+
+     !! Here are some tips and answers !!
+
+     https://github.com/mironal/RxSwiftQuiz/blob/main/Answers/Answers_Basic1.md
+
+      */
+
     // This test code is a sample. The answer has already been written.
     func testSample() throws {
         // Write the code to convert `oneToFiveEvent` so that the test passes

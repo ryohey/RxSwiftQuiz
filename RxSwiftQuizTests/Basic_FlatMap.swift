@@ -17,6 +17,14 @@ class Basic_FlatMap: XCTestCase {
             .do(onNext: { [weak self] _ in self?.asyncRequestCallCount += 1 })
     }
 
+    /*
+
+     !! Here are some tips and answers !!
+
+     https://github.com/mironal/RxSwiftQuiz/blob/main/Answers/Answers_Basic_FlatMap.md
+
+      */
+
     override func setUpWithError() throws {
         asyncRequestCallCount = 0
     }
